@@ -84,7 +84,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "小高宝贝", "year": "2002", "date": "08-01"},
-  
+    {"type": "生日", "name": "康康", "year": "2000", "date": "10-24"},
   ],
 
   /**
@@ -103,8 +103,8 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2020-07-11"},
-    // 结婚纪念日
-    //{"keyword": "marry_day", date: "2020-01-04"},
+    // 多久没见面了
+    {"keyword": "marry_day", date: "2021-01-01"},
     // 退伍日, 不用可以删掉
     //{"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
@@ -117,7 +117,7 @@ export const config = {
   /** 你可以在这里写超多的你想显示的内容了！
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
-    * */
+    **/
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "今天又是想你的一天，多会儿才能再见"},
