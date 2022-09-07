@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "opYJU6pByD6oNFwwbTW2ijmdb814",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "dEPj2wuAkR3Rvv9_iM6rwOaGFDHzSOjMUEE1btUch6E",
+      useTemplateId: "9cLq3JsiBlAJ2UE_IQfE1ShjVEuFzfWbROegN-DiFIs",
       // 所在省份
       province: "山西",
       // 所在城市
@@ -121,7 +121,14 @@ export const config = {
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "今天又是想你的一天，多会儿才能再见"},
-   
+   {"keyword": "lover_prattle", contents: [
+      "今天又是想你的一天，多会儿才能再见呀",
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
+      "愿岁月可回首，且以深情共白头",
+    ]},
   ],
 
   /** 每日一言 */
